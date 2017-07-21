@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+background-color:black;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -39,4 +40,23 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
+}
+.parallax{
+position :relative;
+background-color:black;
+Z-index:0;
+}
+
+.parallax img {
+opacity:.3;
+     Z-index: -3;
+}
+.content
+{
+Z-index:1;
+padding:5px;
+top:10vh;
+left:10vh;
+position:absolute;
+color:white;
 }
